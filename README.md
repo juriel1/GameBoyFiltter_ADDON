@@ -4,7 +4,7 @@
 
 ### Steps to use the addon  
 
-+ Download the zip file here or at [Itch.io](https://uriel1231.itch.io/shader-filter-to-gmb-colors-rgb-godot).  
++ Download the zip file here in addon branch or at [Itch.io](https://uriel1231.itch.io/shader-filter-to-gmb-colors-rgb-godot).  
 + In your **GODOT** project create an Addons folder and extract the contents.
 + Go to -> Project -> Project Settings -> Plugins.  
 + Activate the plugin GameBoyFilter.
