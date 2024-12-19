@@ -1,0 +1,11 @@
+res://addons/gameboyfilter/Shaders/rgb_select_3d.gdshader
+res://addons/gameboyfilter/Shaders/rgb_select_filter.gdshader
+res://addons/gameboyfilter/Shaders/Red_3D.gdshader
+res://addons/gameboyfilter/Shaders/Red_filter.gdshader
+res://addons/gameboyfilter/Shaders/Green_3D.gdshader
+res://addons/gameboyfilter/Shaders/Green_filter.gdshader
+res://addons/gameboyfilter/Shaders/Blue_3D.gdshader
+res://addons/gameboyfilter/Shaders/Blue_filter.gdshader
+res://tet.tscn
+res://addons/gameboyfilter/Materials/rgb_select_filter.tres
+res://addons/gameboyfilter/Materials/Blue_filter.tres

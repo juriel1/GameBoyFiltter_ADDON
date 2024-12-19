@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5cqsgjt2yu04"]
+
+[ext_resource type="Material" uid="uid://bhtrvnec56v2f" path="res://addons/gameboyfilter/Materials/rgb_select_filter.tres" id="1_eobtn"]
+
+[sub_resource type="TorusMesh" id="TorusMesh_7b5mp"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_7weq1"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_5dfaq"]
+
+[node name="Node" type="Node"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = ExtResource("1_eobtn")
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = 584.0
+offset_bottom = 333.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.891007, -0.32102, -0.32102, 0, 0.707107, -0.707107, 0.453991, 0.630037, 0.630037, 0, 0, -3.89227)
+mesh = SubResource("TorusMesh_7b5mp")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.891007, -0.0943899, -0.44407, 0, 0.978148, -0.207912, 0.453991, 0.185251, 0.871536, -2.95933, -1.42085, -3.89227)
+mesh = SubResource("PrismMesh_7weq1")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.925117, -0.128967, -0.357108, 0.219186, -0.949397, -0.224951, -0.310026, -0.286379, 0.906571, 3.019, 1.654, -3.892)
+mesh = SubResource("CapsuleMesh_5dfaq")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5.0885, 1.74453)

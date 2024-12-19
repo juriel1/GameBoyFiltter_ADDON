@@ -1,0 +1,8 @@
+DirectionalLight3D
+MeshInstance3D
+ColorRect
+Camera3D
+Node
+SpotLight3D
+OmniLight3D
+SubViewport
